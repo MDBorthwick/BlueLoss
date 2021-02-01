@@ -30,14 +30,14 @@ Appendix 2: Annotated Methodology
 Executive Summary
 This report examines the issue of “blue loss,” or how many aquatic animals are unaccounted for in the human food chain each year. Aquaculture is often touted as the solution to overfishing, yet our study has found that up to half of all animals caught at sea are fed to fish on farms. This poses serious questions about aquaculture’s animal welfare paradigm.  Listed below are our main findings:  
 
-Approximately 1.9 trillion aquatic animals are fed to other aquatic animals each year. This is approximately one-third to one-half of all animals fished. 
+Approximately 1.2 trillion aquatic animals are fed to other aquatic animals each year. This is approximately one-third to one-half of all animals fished. 
 In order to produce the billions of fish that end up on the human plate, trillions of fish are processed, or fed live, as fish feed. 
 Many of the fish we feed Salmon have similar welfare needs, thus creating a ‘welfare pyramid’ effect, as each farmed salmon must eat the biomass equivalent to 9 herring, or 120 anchovies, to be brought to harvest weight.
 In terms of welfare, this means that each farmed fish we produce under welfare scrutiny carries with it a vast amount of welfare issues that are invisible to the consumer. 
 Possible interventions include several market developments that have the potential to severely disrupt the industry. Plant-based fish feeds could remove trillions of animals from the food system. 
 
 Introduction
-The purpose of this paper is to provide an estimate for the number of caught fish which are killed in order to be fed to farmed fish. These animals, which are used in the production of human food but are not used for direct human consumption (DHC), are hidden from view in the supply chain. The method outlined below produces the estimate that around 1.9 trillion aquatic animals constitute the ‘blue loss’ every year. 
+The purpose of this paper is to provide an estimate for the number of caught fish which are killed in order to be fed to farmed fish. These animals, which are used in the production of human food but are not used for direct human consumption (DHC), are hidden from view in the supply chain. The method outlined below produces the estimate that around 1.2 trillion aquatic animals constitute the ‘blue loss’ every year. 
 
 Estimates for total fish caught vary, with Fishcount’s Alison Mood providing a range between 0.97-2.74 trillion. The comparison heuristic between these estimates is limited, because this paper’s model includes several industry practices that Mood does not (i.e. bycatch, discard, live feed) -- but at the least charitable interpretation of this data, blue loss fish could account for one third of total catch. These are only estimated, but it is possible that between one-third and one-half of all caught fish are fed, directly or indirectly, to farmed fish. 
 
@@ -561,13 +561,13 @@ no.artemia
 
 #Equatio 9
 #total estimate
-ALI.estimate <- (total.reduction+offal.fish+discard.fish+live.fish+krill.no+no.artemia+total.reduction)
+ALI.estimate <- (total.reduction+offal.fish+discard.fish+live.fish+krill.no+no.artemia)
 #formal notation
 format(ALI.estimate, scientific = TRUE)
 ALI.estimate
 #standard notation
 format(ALI.estimate, scientific = FALSE)
-#Total: 1.8 trillion
+#Total: 1.2 trillion
 
 #Equatio 10
 #Median fish weight calculated from reduction fish in §4
